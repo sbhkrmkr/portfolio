@@ -1,0 +1,32 @@
+{
+  "intro": {
+    "start": "const helloWorld = () =>",
+    "end": "Hello, my name is",
+    "speed": 60,
+    "deletionSpeed": 80,
+    "wrapper": "h2",
+    "startDelay": 1000,
+    "deleteDelay": 3000,
+    "restartDelay": 12000
+  },
+
+  "header": {
+    "name": "Subhabrata Karmakar.",
+    "usp": "I lead teams to build high-quality, collaborative, impactful products."
+  },
+
+  "paragraph": "My work includes significant contributions, focusing on high code quality, security and multidisciplinary collaborations. I am passionate about creating impactful technology products.",
+
+  "buttons": {
+    "primary": {
+      "title": "Contact Me",
+      "url": "",
+      "leaveSite": false
+    },
+    "secondary": {
+      "title": "LinkedIn",
+      "url": "",
+      "leaveSite": "true"
+    }
+  }
+}
