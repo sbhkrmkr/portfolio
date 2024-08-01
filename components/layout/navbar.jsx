@@ -169,7 +169,6 @@ export default function Navbar() {
             <li>
               <a
                 href="https://www.subhokarmakar.com/assets/Subhabrata-Karmakar-CV.pdf"
-                target="_blank"
                 rel="noreferrer"
                 style={{
                   cursor: "pointer",

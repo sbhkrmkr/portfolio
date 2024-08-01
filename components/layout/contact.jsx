@@ -79,11 +79,18 @@ export default function Contact() {
                   </button>
                   <button
                     className={`button ${button.secondary} leaveSite`}
-                    onClick={() =>
-                      window.open(
-                        "https://www.subhokarmakar.com/assets/Subhabrata-Karmakar-CV.pdf",
-                        "_blank"
-                      )
+                    onClick={
+                      () => {
+                        const URL =
+                          "https://www.subhokarmakar.com/assets/Subhabrata-Karmakar-CV.pdf";
+                        if (typeof window !== "undefined") {
+                          window.location.href = URL;
+                        }
+                      }
+                      // window.open(
+                      //   "https://www.subhokarmakar.com/assets/Subhabrata-Karmakar-CV.pdf",
+                      //   _blank
+                      // )
                     }
                   >
                     Resume{" "}
