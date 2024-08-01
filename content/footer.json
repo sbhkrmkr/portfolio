@@ -1,19 +1,19 @@
 {
   "acknowledgments": [
     {
-      "person": "Debo Karmakar",
-      "link": "",
-      "note": "Thank you for all the advice and feedback."
+      "person": "Debabrata Karmakar",
+      "link": "https://www.linkedin.com/in/debabrata-karmakar-09415493",
+      "note": "I am grateful for all the advice and feedback you provided."
     },
     {
       "person": "Polytope Networks Pvt Ltd",
       "link": "https://www.polytopenetworks.com/",
-      "note": "Team who helped me to achieve more than what we call NORMAL."
+      "note": "A team that helped me achieve beyond what is considered normal."
     },
     {
       "person": "LearningMate",
       "link": "https://www.linkedin.com/company/learningmate/mycompany/",
-      "note": "A major leap towards my growth all dedicated to the team I work with."
+      "note": "My growth is largely thanks to the incredible team I work with."
     }
   ],
 
@@ -29,8 +29,9 @@
       "icon": "github"
     },
     {
-      "url": "https://x.com/sbhkrmkr",
-      "icon": "x-twitter"
+      "url": "https://github.com/sbhkrmkr",
+      "icon": "github",
+      "comment": "OLD"
     }
   ]
 }

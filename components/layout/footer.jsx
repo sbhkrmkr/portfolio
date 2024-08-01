@@ -66,10 +66,17 @@ export default function Footer() {
               <h4>Social</h4>
             </li>
             <li className={css.socialList}>
-              {content.social.map(({ url, icon }, index) => {
+              {content.social.map(({ url, icon, comment }, index) => {
                 return (
                   <a key={index} href={url} rel="noreferrer" target="_blank">
-                    <Icon icon={["fab", icon]} />
+                    <Icon icon={["fab", icon]} />{" "}
+                    <span
+                      style={{
+                        fontSize: "0.7rem",
+                      }}
+                    >
+                      {comment}
+                    </span>
                   </a>
                 );
               })}

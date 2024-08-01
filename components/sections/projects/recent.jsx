@@ -12,7 +12,7 @@ export default function GitProjects({ repos, user }) {
   return (
     <Section classProp={css.section}>
       <Container classProp={css.container} spacing={"verticalXXXLrg"}>
-        <h3>Recent Projects</h3>
+        <h3>Recent Projects : {user[0].name}</h3>
         <section className={css.profile}>
           <Image
             className={css.profilePhoto}

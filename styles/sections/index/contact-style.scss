@@ -12,12 +12,13 @@
     background-position-x: center;
     background-size: cover;
     opacity: 1;
-    border: 1px solid var(--primary-dim);
+    border: 1px solid var(--primary-dark);
     border-radius: 2rem;
     // animation: animateBg 50s linear infinite;
     box-sizing: border-box;
     overflow: hidden;
     opacity: 0.5;
+    box-shadow: inset 0px 1px 3px -1px var(--primary-dim);
 
     @keyframes animateBg {
       0%,
