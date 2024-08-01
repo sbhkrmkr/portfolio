@@ -168,7 +168,8 @@ export default function Navbar() {
             })}
             <li>
               <a
-                href="https://www.subhokarmakar.com/assets/Subhabrata-Karmakar-CV.pdf"
+                href="https://docs.google.com/document/d/1DynsZR3aQeMShZCUUYfq645uKAUDioHv_ABfEW7pgXk/edit?usp=sharing"
+                target="_blank"
                 rel="noreferrer"
                 style={{
                   cursor: "pointer",
