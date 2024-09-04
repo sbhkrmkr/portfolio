@@ -34,7 +34,7 @@ export default function About() {
         />
         <section className={about.content}>
           <div className={about.image}>
-            <img src="/img/subho-karmakar-bg.png" alt="subho karmakar photo" />
+            <img src="/img/subho-karmakar.JPG" alt="subho karmakar photo" />
           </div>
           <div className={about.copy}>
             {/* <div
